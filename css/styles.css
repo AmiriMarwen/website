@@ -61,7 +61,10 @@ button {
 .skills {
   /* height: 80vh; */
 }
-
+.mypic {
+  height: 480px;
+  
+}
 .profile-img {
   position: relative;
 }
