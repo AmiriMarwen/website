@@ -1,0 +1,240 @@
+:root {
+  --theme-bg: #1f1d2b;
+  --body-color: #080b3f;
+  --button-bg: #353340;
+  --border-color: rgb(128 129 145 / 24%);
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  color: var(--body-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  margin: 0;
+  text-decoration: none;
+  background: #0069ed;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  text-align: center;
+}
+
+.hero-section {
+  background-color: #f9f9fc;
+}
+
+.hero {
+  margin-bottom: 30px;
+  padding: 55px 0;
+}
+
+.hero-heading {
+}
+
+.hero-title {
+  font-size: 3.1rem;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+.skills {
+  /* height: 80vh; */
+}
+
+.profile-img {
+  position: relative;
+}
+
+.icon-bg {
+  background-color: #0069ed;
+  font-size: 12px;
+  color: white;
+  margin: 2px 5px;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.mern-card {
+  position: absolute;
+  right: 20%;
+  bottom: 0%;
+  background-color: #f9f9fc;
+  width: 230px;
+  height: auto;
+  margin: 10px 5px;
+  padding: 10px 19px;
+  border-radius: 22px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.one-card {
+  background-color: #f9f9fc;
+  width: auto;
+  height: auto;
+  margin: 10px 5px;
+  padding: 10px 19px;
+  border-radius: 22px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.one-card:hover {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 4px 16px 2px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+/* -------------------------------- */
+.section-education {
+  height: 100vh;
+  padding: 50px 5px;
+}
+.timeline-icon {
+  background-color: #f9f9fc;
+  color: --body-color;
+  margin: 0 15px;
+  padding: 3px;
+  border-radius: 8px;
+}
+
+.badge {
+  font-size: 15px;
+}
+.location-icon {
+  font-size: 14px;
+}
+.widget-education {
+  margin-right: 50px;
+  max-width: 500px;
+}
+.section-education {
+  height: auto;
+}
+.card-education {
+  margin-top: 35px;
+  background-color: #f9f9fc;
+  padding: 8px 10px;
+  line-height: 1.1rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.timeline-wraper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.timeline-card {
+  max-width: 550px;
+  background-color: #f9f9fc;
+  height: auto;
+  padding: 10px 19px;
+  border-radius: 22px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.timeline-card-title {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+/* .tech-icon {
+  border-radius: 8px;
+  padding: 3px 9px;
+  margin-right: 5px;
+  text-transform: uppercase;
+  line-height: 1.2rem;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  background-color: #f3f3e7;
+} */
+.used-tech i {
+  font-size: 22px;
+  padding: 0 3px;
+}
+/* -------------------------- */
+.work-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.p-card {
+  position: relative;
+  width: 540px;
+  height: auto;
+  margin: 10px 15px;
+  color: white;
+  background-color: #353340;
+}
+
+.pc-desc {
+  position: absolute;
+  right: -2%;
+  bottom: 5%;
+  width: 350px;
+  height: auto;
+  padding: 8px 10px;
+  font-size: 15px;
+  color: #353340;
+  background-color: #4b98f7;
+}
+
+/* ------------------------------- */
+.contact-section {
+  background-color: #f9f9fc;
+  outline: #0069ed solid 2px;
+  padding: 70px 10px;
+  margin: 70px auto;
+}
+@media only screen and (max-width: 480px) {
+  .profile-img img {
+    height: 380px;
+    margin: 0 auto;
+  }
+
+  .skills {
+    margin-top: 100px;
+  }
+
+  .skills-wraper {
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .one-card {
+    width: auto;
+  }
+
+  .skills-text {
+    margin-top: 20px;
+  }
+  .widget-education {
+    margin-right: 0px;
+    margin-bottom: 20px;
+    width: auto;
+  }
+  .timeline-icon {
+    visibility: hidden;
+  }
+  .timeline-card {
+    margin-top: -20px;
+  }
+}
