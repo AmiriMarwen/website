@@ -184,7 +184,7 @@ button {
   position: relative;
   width: 540px;
   height: auto;
-  margin: 10px 15px;
+  margin: 4px 8px;
   color: white;
   background-color: #353340;
 }
@@ -197,10 +197,18 @@ button {
   height: auto;
   padding: 8px 10px;
   font-size: 15px;
-  color: #353340;
-  background-color: #4b98f7;
+  color: #ffffff;
+  background-color: #062c5c;
 }
 
+.pc-desc a {
+  color: #ffffff;
+  font-size: 18px;
+}
+.pc-desc a {
+  color: #ffffff;
+  font-size: 18px;
+}
 /* ------------------------------- */
 .contact-section {
   background-color: #f9f9fc;
